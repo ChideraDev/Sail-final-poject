@@ -1,4 +1,4 @@
-#container{
+#container {
     margin: auto;
     width: 50%;
     background-color: #145743;
@@ -9,15 +9,15 @@
     border-radius: 50px;
 }
 
-#btn{
+#btn {
     margin: 0 auto;
-padding: 20px;
-border: none;
-font-family: 'Rubik Moonrocks', cursive;
+    padding: 20px;
+    border: none;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
 
-.row{
+#row {
     margin: 0 auto;
     padding: 6px;
     display: flex;
@@ -25,24 +25,28 @@ font-family: 'Rubik Moonrocks', cursive;
     justify-content: center;
     background-color: black;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: #00000040 0px 54px 55px, #0000001f 0px -12px 30px, #0000001f 0px 4px 6px, #0000002b 0px 12px 13px, #00000017 0px -3px 5px;
 }
 
-#details{
+#details {
     color: whitesmoke;
     text-align: center;
     font-family: 'Rubik Moonrocks', cursive;
 }
 
 @keyframes example {
-    from {font-size: 10px;}
-    to {font-size: 30px;}
-  }
-  
-h1{
+    from {
+        font-size: 10px;
+    }
+
+    to {
+        font-size: 30px;
+    }
+}
+
+h1 {
     text-align: center;
-    animation: example  4s infinite;
+    animation: example 4s infinite;
     text-shadow: rgb(236, 236, 234) 1px 0 10px;
     font-family: 'Rubik Moonrocks', cursive;
 }
-
